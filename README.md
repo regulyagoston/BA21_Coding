@@ -34,7 +34,8 @@ ggplot(diamonds, aes(cut)) + geom_bar()
 ## RMarkdown
 
 - RMarkdown is a powerful tool, provided in RStudio, which helps to create reports rigorously, automatize reports, create an Html, etc.
-- However in many cases it is not easy to get started with RMarkdown and *knit* your first document especially in *pdf* format.
+- During this course and Data Analysis 2 some of the assignments will be required as an output from RMarkdown.
+- However, in many cases it is not easy to get started with RMarkdown and *knit* your first document especially in *pdf* format as it is likely to give an error.
   * You may check out the guidance on [*Help to knit a document in RMarkdown*](https://github.com/regulyagoston/BA21_Coding/blob/main/Help/help_rmarkdown.md).
 
 If in doubt feel free to contact me via email: reguly_agoston@phd.ceu.edu.

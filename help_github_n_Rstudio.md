@@ -56,3 +56,4 @@ Some of these steps are nicely summarized and showed in [Ginny Fahs's blog](http
 - Pay attention to your folder structure.
 - Always add readme.md files to your folders, you can add them by *File/New File/Text File* and save them as readme.md.
 - You do not need to use RStudio for version control, you can use the *Shell/Terminal* or specific programs as *GitHub Desktop*. RStudio makes the same as these but in a compact way.
+- If you are interested in more on this topic, I highly recommend to check out https://happygitwithr.com/ .

@@ -8,7 +8,7 @@ course in the 2021/2022 Fall term, part of the [MSc in Business Analytics](https
 
 Please find it in the `Syllabus` folder of this repository.
 
-## Technical Prerequisites
+## Technical prerequisites
 
 Please bring your own laptop and make sure to install the below items **before** attending the first class:
 
@@ -24,7 +24,7 @@ ggplot(diamonds, aes(cut)) + geom_bar()
 ```
 5. Bookmark, watch or star this repository so that you can easily find it later.
 
-## Use of Version Control during the course
+## Use of version control during the course
 
 - During the course it is required to use your GitHub account. 
 - Assignments must be uploaded to your GitHub repo, which needs to be shared with @regulyagoston.

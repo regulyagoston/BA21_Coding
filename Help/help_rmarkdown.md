@@ -53,6 +53,6 @@ You may iterate through these possible solutions and check whether you got a pro
         
     3.3. Install another **tex/latex** engine if *tinytex* does not work...
       - An alternative **tex/latex** engine is *MikTex*. 
-          * You can find a [video](https://www.youtube.com/watch?v=k-xSGZ-RLBU&ab_channel=OutLieer) on how to install it in RStudio.
-          * If RStudio still does not recognize *MikTex*, then you may check out this [solution](https://community.rstudio.com/t/r-studio-is-not-recognizing-miktex-download/30665/3).
+          * Follow the steps written in [Søren L Kristiansen's blog](https://medium.com/@sorenlind/create-pdf-reports-using-r-r-markdown-latex-and-knitr-on-windows-10-952b0c48bfa9)
+          * Alternatvely you can watch this old [video](https://www.youtube.com/watch?v=k-xSGZ-RLBU&ab_channel=OutLieer) on how to install it in RStudio.
       - Try to stick with *tinytex* as much as possible, these alternatives are not as stable. However, sometimes I have found this is the only solution...

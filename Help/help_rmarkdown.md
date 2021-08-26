@@ -1,11 +1,11 @@
 # Help to knit your first document in *RMarkdown*
 
-In many cases knitting a document, especially in pdf, result in an error. Here, I provide some possible solutions for this problems.
+In many cases knitting a document, especially in pdf, result in an error. Here, I provide some possible solutions for these problems.
 You may iterate through these possible solutions and check whether you got a proper output after each fix.
 
 1. Your working directory contains invalid characters
-    - In general you should avoid paths, which contains non machine readable characters such as: non-english characters *á,ë,ö* or characters which has its own purposes in coding such as *.,;\*\\\[\]\(\)\#* or *space*.
-    - You should use **'_'** or **'-'** to conocate your folders/file names instead, which is machine readable.
+    - In general, you should avoid paths, which contains non-machine readable characters such as non-English characters *á,ë,ö* or characters which has their own purposes in coding such as *.,;\*\\\[\]\(\)\#* or *space*.
+    - You should use **'_'** or **'-'** to colocate your folders/file names instead, which is machine-readable.
     - **Solution:** rename your folders in your path which contains the *.Rmd* file and the *.Rmd* file itself.
 
 2. Try to re-install or update your RStudio and R
@@ -54,5 +54,5 @@ You may iterate through these possible solutions and check whether you got a pro
     3.3. Install another **tex/latex** engine if *tinytex* does not work...
       - An alternative **tex/latex** engine is *MikTex*. 
           * Follow the steps written in [Søren L Kristiansen's blog](https://medium.com/@sorenlind/create-pdf-reports-using-r-r-markdown-latex-and-knitr-on-windows-10-952b0c48bfa9)
-          * Alternatvely you can watch this old [video](https://www.youtube.com/watch?v=k-xSGZ-RLBU&ab_channel=OutLieer) on how to install it in RStudio.
+          * Alternatively you can watch this old [video](https://www.youtube.com/watch?v=k-xSGZ-RLBU&ab_channel=OutLieer) on how to install it in RStudio.
       - Try to stick with *tinytex* as much as possible, these alternatives are not as stable. However, sometimes I have found this is the only solution...

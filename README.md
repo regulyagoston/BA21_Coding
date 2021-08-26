@@ -21,6 +21,6 @@ install.packages('tidyverse')
 library(ggplot2)
 ggplot(diamonds, aes(cut)) + geom_bar()
 ```
-5. Bookmark, watch or star this repository so that you can easily find it later
+5. Bookmark, watch or star this repository so that you can easily find it later.
 
 If in doubt feel free to contact me  via email: reguly_agoston@phd.ceu.edu.

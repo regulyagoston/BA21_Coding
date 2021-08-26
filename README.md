@@ -1,5 +1,5 @@
 # ECBS-5208-Coding-1-Business-Analytics
-ECBS5208 - Coding 1: Data Management and Analysis with R for Business Analytics Track 2021/22 Fall
+ECBS5208 - Coding 1: Data Management and Analysis with R for Business Analytics Track 2021/22 Fall.=
 
 This is the repository of the [Coding 1: Data Management and Analysis with R](https://courses.ceu.edu/courses/2021-2022/coding-1-data-management-and-analysis-r)
 course in the 2021/2022 Fall term, part of the [MSc in Business Analytics](https://economics.ceu.edu/program/master-science-business-analytics) at CEU.
@@ -29,12 +29,12 @@ ggplot(diamonds, aes(cut)) + geom_bar()
 - During the course it is required to use your GitHub account. 
 - Assignments must be uploaded to your GitHub repo, which needs to be shared with @regulyagoston.
 - You may use Shell/Terminal, GitHub Desktop (or other application), or can use RStudio as well to commit and push/pull to your repo.
-  * You may check out the guide for [*Help for GitHub and RStudio*](https://github.com/regulyagoston/BA21_Coding/blob/main/Help/help_github_n_Rstudio.md)
+  * You may check out the guide for [*Help for GitHub and RStudio*](https://github.com/regulyagoston/BA21_Coding/blob/main/Help/help_github_n_Rstudio.md).
 
 ## RMarkdown
 
 - RMarkdown is a powerful tool, provided in RStudio, which helps to create reports rigorously, automatize reports, create an Html, etc.
 - However in many cases it is not easy to get started with RMarkdown and *knit* your first document especially in *pdf* format.
-  * You may check out the guidance on [*Help to knit a document in RMarkdown*](https://github.com/regulyagoston/BA21_Coding/blob/main/Help/help_rmarkdown.md)
+  * You may check out the guidance on [*Help to knit a document in RMarkdown*](https://github.com/regulyagoston/BA21_Coding/blob/main/Help/help_rmarkdown.md).
 
 If in doubt feel free to contact me via email: reguly_agoston@phd.ceu.edu.

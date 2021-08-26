@@ -6,7 +6,7 @@ course in the 2021/2022 Fall term, part of the [MSc in Business Analytics](https
 
 ## Syllabus
 
-Please find in the `Syllabus` folder of this repository.
+Please find it in the `Syllabus` folder of this repository.
 
 ## Technical Prerequisites
 
@@ -14,8 +14,8 @@ Please bring your own laptop and make sure to install the below items **before**
 
 1. Install `R` from https://cran.r-project.org
 2. Install `RStudio Desktop` (Open Source License) from https://www.rstudio.com/products/rstudio/download
-3. You probably already have a git and github account, but if not install `git` from https://git-scm.com/ and register an account at https://github.com
-4. Enter the following commands in the R console (bottom left panel of RStudio) and make sure you see a plot in the bottom right panel and no errors in the R console:
+3. You probably already have a git and GitHub account, but if not install `git` from https://git-scm.com/ and register an account at https://github.com
+4. Open RStudion and enter the following commands in the R console (bottom left panel of RStudio) and make sure you see a plot in the bottom right panel and no error messages in the R console:
 
 ```r
 install.packages('tidyverse')
@@ -26,15 +26,15 @@ ggplot(diamonds, aes(cut)) + geom_bar()
 
 ## Use of Version Control during the course
 
-- During the course it is required to use your github account. 
-- Assignments must be uploaded to your github repo, which needs to be shared with @regulyagoston.
-- You may use Shell/Terminal, GitHub Desktop (or other application) or can use RStudio as well to commit and push/pull to your repo.
+- During the course it is required to use your GitHub account. 
+- Assignments must be uploaded to your GitHub repo, which needs to be shared with @regulyagoston.
+- You may use Shell/Terminal, GitHub Desktop (or other application), or can use RStudio as well to commit and push/pull to your repo.
   * You may check out the guide for [*Help for GitHub and RStudio*](https://github.com/regulyagoston/BA21_Coding/blob/main/Help/help_github_n_Rstudio.md)
 
 ## RMarkdown
 
-- RMarkdown is a powerful tool, provided in RStudio, which helps to create reports in a rigorous manner, automatize reports, create a html, ect.
+- RMarkdown is a powerful tool, provided in RStudio, which helps to create reports rigorously, automatize reports, create an Html, etc.
 - However in many cases it is not easy to get started with RMarkdown and *knit* your first document especially in *pdf* format.
   * You may check out the guidance on [*Help to knit a document in RMarkdown*](https://github.com/regulyagoston/BA21_Coding/blob/main/Help/help_rmarkdown.md)
 
-If in doubt feel free to contact me  via email: reguly_agoston@phd.ceu.edu.
+If in doubt feel free to contact me via email: reguly_agoston@phd.ceu.edu.

@@ -6,11 +6,20 @@ In the following, I give a help on how to establish this direct connection.
 
 ## 1) Create a **Personal Access Token** at *github*
   In order to get access RStudio to your github account you need to create a token.
+  
   1. Sign in to github
-  2. Click on your personal icon button and select (**Settings**)[https://github.com/settings/profile] (Note: not the Settings button for one of your repos)
-  3. In the left option panel, select (**Developer Settings**)[https://github.com/settings/apps]
-  4. Select (**Personal Access Tokens**)[https://github.com/settings/tokens]
+  2. Click on your personal icon button and select [**Settings**](https://github.com/settings/profile) (Note: not the Settings button for one of your repos)
+  3. In the left option panel, select [**Developer Settings**](https://github.com/settings/apps)
+  4. Select [**Personal Access Tokens**](https://github.com/settings/tokens)
   5. Select **Generate New Token**. This will ask your github password.
     5.1. You shall give a note what is this token good for such as *RStudio access* or something similar
     5.2. Set the **Expiration** to **No Expiration**.
-    5.3. You should check **Scopes** boxes. You can safely check all, but at least you need 
+    5.3. You should check all **Scopes** boxes. You can safely check all, but at least you need check: *repo, workflow, write:package, delete:package, notification,  write:discussion*
+  6. Click on **Generate Token** at the bottom of the page.
+  7. You get your **key**, that **NEED TO SAVE to a temporary file or note**.
+      7.1. In case you have not saved the key, you can regenerate it by clicking on your already existing token, but then you will need to update all your apps using this key
+
+Some of these steps are nicely summarized and showed in [Ginny Fahs's blog](https://ginnyfahs.medium.com/github-error-authentication-failed-from-command-line-3a545bfd0ca8).
+
+## 2) Creating a version controlled project in RStudio
+

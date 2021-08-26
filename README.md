@@ -23,4 +23,17 @@ ggplot(diamonds, aes(cut)) + geom_bar()
 ```
 5. Bookmark, watch or star this repository so that you can easily find it later.
 
+## Use of Version Control during the course
+
+- During the course it is required to use your github account. 
+- Assignments must be uploaded to your github repo, which needs to be shared with @regulyagoston.
+- You may use Shell/Terminal, GitHub Desktop (or other application) or can use RStudio as well to commit and push/pull to your repo.
+  * You may check out the guide for [*Help for GitHub and RStudio*](https://github.com/regulyagoston/BA21_Coding/blob/main/help_github_n_Rstudio.md)
+
+## RMarkdown
+
+- RMarkdown is a powerful tool, provided in RStudio, which helps to create reports in a rigorous manner, automatize reports, create a html, ect.
+- However in many cases it is not easy to get started with RMarkdown and *knit* your first document especially in *pdf* format.
+  * You may check out the guidance on [*Help to knit a document in RMarkdown](https://github.com/regulyagoston/BA21_Coding/blob/main/help_rmarkdown.md)
+
 If in doubt feel free to contact me  via email: reguly_agoston@phd.ceu.edu.

@@ -1,7 +1,7 @@
 # ECBS-5208-Coding-1-Business-Analytics
-ECBS5208 - Coding 1: Data Management and Analysis with R for Business Analytics Track 2020/21 Fall
+ECBS5208 - Coding 1: Data Management and Analysis with R for Business Analytics Track 2021/22 Fall
 
-This is the R script repository of the "[Coding 1: Data Management and Analysis with R](https://courses.ceu.edu/courses/2020-2021/coding-1-data-management-and-analysis-r)" course in the 2020/2021 Fall term, part of the [MSc in Business Analytics](https://economics.ceu.edu/program/master-science-business-analytics) at CEU.
+This is the R script repository of the "[Coding 1: Data Management and Analysis with R](https://courses.ceu.edu/courses/2021-2022/coding-1-data-management-and-analysis-r)" course in the 2021/2022 Fall term, part of the [MSc in Business Analytics](https://economics.ceu.edu/program/master-science-business-analytics) at CEU.
 
 ## Syllabus
 

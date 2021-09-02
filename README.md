@@ -1,5 +1,5 @@
 # ECBS-5208-Coding-1-Business-Analytics
-ECBS5208 - Coding 1: Data Management and Analysis with R for Business Analytics Track 2021/22 Fall.=
+ECBS5208 - Coding 1: Data Management and Analysis with R for Business Analytics Track 2021/22 Fall.
 
 This is the repository of the [Coding 1: Data Management and Analysis with R](https://courses.ceu.edu/courses/2021-2022/coding-1-data-management-and-analysis-r)
 course in the 2021/2022 Fall term, part of the [MSc in Business Analytics](https://economics.ceu.edu/program/master-science-business-analytics) at CEU.

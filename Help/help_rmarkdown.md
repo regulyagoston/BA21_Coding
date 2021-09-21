@@ -24,13 +24,12 @@ You may iterate through these possible solutions and check whether you got a pro
         * Mac update: substitute your password at the last line.
                
         ```r,
-          install.packages('devtools') #assuming it is not already installed
+          install.packages('devtools') # assuming it is not already installed
           library(devtools)
           install_github('andreacirilloac/updateR')
           library(updateR)
-          updateR()
+          updateR() # then you will need to type in your password!
         ```
-        then you will need to type in your password.
 
 
     2.2. You can download both of them from their website, see links in the [Readme.md](https://github.com/regulyagoston/BA21_Coding/blob/main/README.md)

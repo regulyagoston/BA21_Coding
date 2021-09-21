@@ -28,8 +28,9 @@ You may iterate through these possible solutions and check whether you got a pro
           library(devtools)
           install_github('andreacirilloac/updateR')
           library(updateR)
-          updateR(admin_password = 'Admin user password')
+          updateR()
         ```
+        then you will need to type in your password.
 
 
     2.2. You can download both of them from their website, see links in the [Readme.md](https://github.com/regulyagoston/BA21_Coding/blob/main/README.md)

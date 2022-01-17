@@ -137,7 +137,7 @@ skimr::skim(data)
 
 # Average price by `property_type`, `room_type`
 datasummary( f_property_type*f_room_type*price + f_bed_type*price ~ Mean + SD + P25 + P75 + N, data = data )
-
+datasummary( f_property_type*f_room_type*f_bed_type*price ~ Mean + SD + P25 + P75 + N, data = data )
 # NB all graphs, we exclude  extreme values of price for plotting
 datau <- subset(data, price<400)
 
@@ -422,7 +422,7 @@ model_results
 #     as LASSO will check much more possible values
 # c) in tune_grid "alpha" decides which "method" you use:
 #     alpha = 1 -> LASSO regression
-#     alpha = 2 -> RIDGE regression
+#     alpha = 0 -> RIDGE regression
 #     alpha = any number -> ELASTIC NET
 
 set.seed(seed_val)

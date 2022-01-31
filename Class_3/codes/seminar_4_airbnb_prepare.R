@@ -47,7 +47,7 @@ data <- data %>%
 
 
 #Room type as factor
-datasummary(room_type ~ N + Percent(), data = data )
+datasummary(room_type ~ N + Percent() , data = data )
 data <- data %>%
   mutate(f_room_type = factor(room_type))
 
@@ -117,6 +117,8 @@ dnames <- data %>%
   names()
 dnames_i <- match(dnames, colnames(data))
 colnames(data)[dnames_i] <- paste0("d_", tolower(gsub("[^[:alnum:]_]", "",dummies)))
+
+
 # keep columns if contain d_, n_,f_, p_, usd_ and some others
 data <- data %>%
   select(matches("^d_.*|^n_.*|^f_.*|^p_.*|^usd_.*"), price, id,

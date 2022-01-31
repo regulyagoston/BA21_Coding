@@ -199,7 +199,7 @@ rf_model_2_var_imp_df <-
   arrange(desc(imp)) %>%
   mutate(imp_percentage = imp/sum(imp))
 
-
+rf_model_2_var_imp_df
 ##############################
 # 1) full varimp plot, above a cutoff
 ##############################
@@ -445,6 +445,7 @@ cart_model <- train(
   trControl = train_control
 )
 })
+cart_model
 # Showing an alternative for plotting a tree
 fancyRpartPlot(cart_model$finalModel, sub = "")
 
@@ -468,6 +469,7 @@ system.time({
                      tuneGrid = gbm_grid)
 })
 gbm_model
+gbm_model$finalModel
 # save( gbm_model , file = 'gbm_model.RData' )
 # load(url('https://github.com/regulyagoston/BA21_Coding/blob/main/Class_3/data/gbm_model.RData?raw=true'))
 

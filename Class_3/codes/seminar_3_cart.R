@@ -94,7 +94,7 @@ datasummary_skim(data, 'numeric')
 datasummary_skim(data, 'categorical')
 
 
-datasummary( price ~ Mean + Median + SD + P25 + P75 + N , data = data )
+datasummary( price ~ Mean + Median + SD + P25 + P75 + Min + Max + N , data = data )
 
 
 

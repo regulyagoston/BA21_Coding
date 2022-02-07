@@ -299,6 +299,7 @@ logit_models[["LASSO"]] <- logit_lasso_model
 lasso_coeffs <- as.matrix(coef(tuned_logit_lasso_model, best_lambda))
 CV_RMSE_folds[["LASSO"]] <- logit_lasso_model$resample[,c("Resample", "RMSE")]
 
+# Soon we will check the performance...
 
 #############################################
 # Step 2)
@@ -763,7 +764,8 @@ summary_results
 #       now, we grow a tree, make a prediction, based on that we classify each observation
 #       to be 0 or 1. We do it for each tree, then check which classification has more 'vote'
 #       if there is more 0 then it is going to be classified as 0 and vica-versa.
-# 
+#
+# USE ONLY IF AGNOSTIC ABOUT THE EXPECTED LOSS!!! 
 
 train_control <- trainControl(
   method = "cv",

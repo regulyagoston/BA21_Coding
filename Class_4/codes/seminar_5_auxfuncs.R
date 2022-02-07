@@ -15,7 +15,7 @@ createRocPlot <- function(r, file_name,  myheight_small = 5.625, mywidth_small =
   roc_plot <- ggplot(data = all_coords, aes(x = fpr, y = tpr)) +
     geom_line(color='red', size = 0.7) +
     geom_area(aes(fill = 'green', alpha=0.4), alpha = 0.3, position = 'identity', color = 'red') +
-    scale_fill_viridis(discrete = TRUE, begin=0.6, alpha=0.5, guide = FALSE) +
+    scale_fill_viridis(discrete = TRUE, begin=0.6, alpha=0.5, guide = "none") +
     xlab("False Positive Rate (1-Specifity)") +
     ylab("True Positive Rate (Sensitivity)") +
     geom_abline(intercept = 0, slope = 1,  linetype = "dotted", col = "black") +
@@ -99,6 +99,8 @@ createRocPlotWithOptimal <- function(r, best_coords, file_name,  myheight_small 
     annotate(geom = "text", x = sp, y = se,
              label = paste(round(sp, 2),round(se, 2),sep = ", "),
              hjust = 1, vjust = -1, size = 7) +
+    xlab("False Positive Rate (1-Specifity)") +
+    ylab("True Positive Rate (Sensitivity)") +
     theme_bw()
 
   

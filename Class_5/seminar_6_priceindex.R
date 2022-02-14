@@ -245,7 +245,7 @@ q2_auto <- m2_pre$auto_arima[[1]]$fit$spec$q
 d2_auto <- m2_pre$auto_arima[[1]]$fit$spec$d
 m2_formula <- paste0("p ~  pdq(",paste(p2_auto,d2_auto,q2_auto, sep=","),") + PDQ(0,0,0)")
 m2 <-  ARIMA(as.formula(m2_formula))
-
+m2
 
 # M3 p ~ auto ARIMA + month
 m3_pre <- data_work %>%
@@ -396,6 +396,7 @@ summary_table_18_2
 
 var_formula <- "vars(dp, du, dlnemp) ~ AR(1) "
 var <- VAR(as.formula(var_formula))
+var
 
 # create forecast and cross-validate
 var_data <- data_tr %>%

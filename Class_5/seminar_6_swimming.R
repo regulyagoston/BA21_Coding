@@ -181,7 +181,8 @@ data_train <- data_train %>%
   rownames_to_column() %>% 
   mutate(rowname = as.integer(rowname))
 
-# Create indexes for the test samples: create a list for each year's rowname
+# Create indexes for the test samples: 
+# create a list for each year's rowname
 test_index_list <- data_train %>% 
   split(f = factor(data_train$year)) %>% 
   lapply(FUN = function(x){x$rowname})
@@ -280,6 +281,8 @@ rmse_CV["reg6"] <- reg6$pred %>%
   summarise(mean(rmse)) %>% 
   as.numeric()
 rmse_CV["reg6"] 
+
+rmse_CV
 
 # Use prophet prediction -------------------------------------------
 # add CV into prophet
